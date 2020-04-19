@@ -6,9 +6,186 @@
 .page {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 .section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu-container {
+    padding-top: 10px;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+.menu {
+    width: 241.6px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+}
+.sign-in {
+    color: #fff;
+    background-color: #4386f9;
+    height: 30px;
+    width: 70px;
+    border-radius: 2px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gmail,
+.images {
+    opacity: 0.85;
+}
+.apps-icon {
+    opacity: 0.5;
+}
+.gmail:hover,
+.images:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+.apps-icon:hover {
+    opacity: 1;
+}
+.logo {
+    height: 233px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.logo img {
+    height: 92px;
+}
+.search-container {
+    justify-content: center;
+}
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 44px;
+    width: 482px;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid darkgray;
+    opacity: 0.5;
+}
+.search:hover,
+.search:focus-within {
+        box-shadow: 
+            0 10px 5px -5px #ccc,
+            5px 0 5px -5px #ccc,
+            -5px -5px 5px -5px #ccc;
+}
+.search input {
+    height: 34px;
+    width: 427px;
+    border: none;
+}
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 10px;
+}
+.buttons {
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.google-search, 
+.feeling-lucky {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 128px;
+    height: 36px;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    margin: 0 6px;
+}
+.google-search:hover,
+.feeling-lucky:hover {
+    color: rgb(27, 27, 27);
+    border: 0.5px solid darkgray;
+    box-shadow: 
+            0 5px 5px -5px #ccc;
+}
+.misc-reminder {
+    justify-content: center;
+    font-size: 12px;
+}
+.misc-reminder:hover {
+    text-decoration: underline;
+    color: #362bb5;
+}
+.misc-reminder a {
+    color: #362bb5;
+    text-decoration: none;
+}
+.misc-language {
+    height: 100px;
+    justify-content: center;
+    align-items: top;
+    font-size: 12px;
+}
+.misc-language a {
+    margin: 0 6px;
+}
+.footer-loc {
+    height: 40px;
+    color: #717171;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+}
+.footer-misc {
+    height: 40px;
+    color: #717171;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.footer-one {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+.footer-two {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 20px;
+}
+.footer-buttons {
+    margin: 0 8px;
+    font-size: 14px;
+}
+.footer-buttons:hover {
+    color: #717171;
+    text-decoration: underline;
+}
+.philippines {
+    padding-left: 28px;
+    font-size: 14px;
 }
